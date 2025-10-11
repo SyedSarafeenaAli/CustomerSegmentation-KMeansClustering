@@ -7,13 +7,13 @@ CLUSTERING: Clustering is a data mining technique which groups unlabeled data ba
 K-MEANS CLUSTERING: K-means clustering measures similarity using ordinary straight-line distance (Euclidean distance, in other words). It creates clusters by placing a number of points, called centroids, inside the feature-space. Each point in the dataset is assigned to the cluster of whichever centroid it's closest to. The "k" in "k-means" is how many centroids (that is, clusters) it creates. K-means, is intuitive and easy to apply in a feature engineering context. Depending on your application another algorithm might be more appropriate.
 
 
-# Problem Statement:-
+# PROBLEM STATEMENT:-
 
 In today’s highly competitive business environment, companies interact with a diverse customer base that varies in preferences, purchasing behaviors, and spending capacity. Treating all customers the same often leads to ineffective marketing strategies, poor resource allocation, and reduced customer satisfaction.
 To overcome this challenge, businesses need to understand and categorize their customers into distinct groups based on behavioral and demographic similarities. However, manually identifying such patterns in large customer datasets is impractical and prone to bias.
 This project aims to develop an unsupervised machine learning model using K-Means Clustering to automatically segment customers into meaningful groups based on key attributes such as annual income, spending score, and other behavioral metrics. The goal is to enable data-driven marketing strategies and enhance customer relationship management.
 
-# Objectives:-
+# OBJECTIVES:-
 
 Data Acquisition and Preprocessing:
 
