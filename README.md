@@ -50,3 +50,46 @@ Conclusion and Future Scope:
 1) Summarize findings and discuss how segmentation improves marketing efficiency.
 
 2) Suggest extensions such as using hierarchical or DBSCAN clustering for comparison or incorporating more features (e.g., age, gender, purchase frequency).
+
+
+# DATASET AND FEATURES:-
+
+DATASET DESCRIPTION:
+
+The dataset used in this project is taken from Kaggle’s notebook “Clustering with K-Means” by Ryan Holbrook. It contains information about mall customers and their spending habits. The data is ideal for demonstrating clustering techniques because it includes both demographic and behavioral attributes, allowing us to group customers with similar characteristics.
+Each record in the dataset represents an individual customer. The dataset is relatively small, containing around 200–300 entries, making it suitable for visual and intuitive clustering analysis.
+
+FEATURES DESCRIPTION:-
+
+The dataset includes several key features that describe each customer:
+
+1) CustomerID – This is a unique identification number assigned to each customer. It helps to distinguish between different records but does not carry any analytical meaning. Therefore, it is excluded from the clustering process.
+
+2) Gender – Indicates whether the customer is male or female. Although it provides demographic information, gender is often not used in K-Means clustering because it is categorical and does not directly influence numerical distance calculations. However, it can be considered for extended analysis if encoded numerically.
+
+3) Age – Represents the age of the customer in years. This feature helps understand how customer preferences vary across different age groups. For example, younger customers might have different spending behaviors compared to older ones.
+
+4) Annual Income (k$) – Denotes the customer’s yearly income in thousands of dollars. This is one of the most significant features used for clustering since income level often affects spending behavior. It helps separate customers into high-income, medium-income, and low-income groups.
+
+5)  Spending Score (1–100) – A score assigned to each customer by the mall based on factors such as purchasing frequency, loyalty, and total expenditure. A higher score indicates that a customer is more engaged and spends more frequently. This feature, along with annual income, plays a central role in forming meaningful customer segments.
+
+FEATURES USED FOR CLUSTERING:
+
+Although the dataset includes multiple features, only the most relevant ones are used for the K-Means clustering process. Typically, Annual Income and Spending Score are selected because they capture both the customer’s financial capacity and spending behavior. In some variations of the analysis, Age is also included to study the influence of age on purchasing patterns.
+Before clustering, these numerical features are normalized or standardized to ensure that they contribute equally to the distance calculations used by the K-Means algorithm.
+
+HOW THE FEATURES CONTRIBUTE TO CLUSTERING?
+
+By combining these attributes, the algorithm identifies distinct groups of customers such as:
+
+1) High-income, high-spending individuals (potential premium customers)
+
+2) Low-income, low-spending individuals (budget-conscious customers)
+
+3) High-income, low-spending individuals (customers with untapped potential)
+
+4) Low-income, high-spending individuals (impulsive or trend-driven buyers)
+
+5) Average-income, moderate-spending individuals (steady and reliable customers)
+
+These clusters allow businesses to design personalized marketing strategies, allocate resources efficiently, and improve customer engagement.
