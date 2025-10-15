@@ -29,4 +29,4 @@ a(i) (Intra-cluster distance): The average distance from a point i to all other 
 
 b(i) (Inter-cluster distance): The average distance from point i to all points in the nearest neighboring cluster.
 
-The Formula: The silhouette score for a single point i is calculated as (b(i) - a(i)) / max(a(i), b(i))
+Formula: The silhouette score for a single point i is calculated as (b(i) - a(i)) / max(a(i), b(i))
