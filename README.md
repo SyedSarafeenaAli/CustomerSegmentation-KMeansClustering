@@ -46,3 +46,39 @@ The primary objective of this project is to apply the K-Means clustering algorit
 3) Improve customer satisfaction: Offer personalized experiences that increase engagement and loyalty.
 
 4) Optimize resource allocation: Allocate marketing resources more efficiently by focusing on high-value segments.
+
+# DATASET AND FEATURES:-
+
+DATASET SOURCE: https://archive.ics.uci.edu/dataset/502/online+retail+ii
+
+DATASET OVERVIEW-
+
+Total Instances: 1,067,371
+
+Features: 8
+
+Data Types: Multivariate, Sequential, Time-Series, Text
+
+Feature Types: Categorical, Integer, Real
+
+Missing Values: Yes
+
+DATASET FEATURES-
+
+The dataset comprises the following 8 columns:
+
+InvoiceNo: A 6-digit number uniquely assigned to each transaction. Transactions starting with 'c' indicate cancellations.
+
+StockCode: A 5-digit number uniquely assigned to each product.
+
+Description: The name of the product.
+
+Quantity: The number of units of each product per transaction.
+
+InvoiceDate: The date and time when the transaction was generated.
+
+UnitPrice: The price per unit of the product in British pounds (£).
+
+CustomerID: A 5-digit number uniquely assigned to each customer.
+
+Country: The name of the country where the customer resides.
