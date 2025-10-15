@@ -31,11 +31,11 @@ b(i) (Inter-cluster distance): The average distance from point i to all points i
 
 Formula: The silhouette score for a single point i is calculated as (b(i) - a(i)) / max(a(i), b(i))
 
-# Problem Statement:-
+# PROBLEM STATEMENT:-
 
 Businesses often struggle to understand the diverse needs and behaviors of their customers. Without clear segmentation, marketing efforts can become generic and less effective. The challenge lies in identifying distinct groups within a customer base to tailor strategies that resonate with each segment's unique characteristics.
 
-# Objective:-
+# OBJECTIVE:-
 
 The primary objective of this project is to apply the K-Means clustering algorithm to segment customers based on their purchasing behavior, demographics, or interactions with products or services. By doing so, the project aims to:
 
